@@ -24,6 +24,11 @@ const LikeSection = props => {
         </div>
       </div>
       <p className='like-number'>100 likes</p>
+      <button
+        onClick={(event) => {
+          setCount(count = 100);
+        }}
+      >100</button>
     </div>
   );
 };
